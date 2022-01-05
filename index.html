@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>Math Quiz!</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="main.js"></script>
+</head>
+<body>
+	<h4 id="player1_name"></h4><span id="player1_score"></span>
+	<br>
+	<h4 id="player2_name"></h4><span id="player2_score"></span>
+<div class="container">
+<center>
+<h1>Math Quiz!</h1>
+<h3 id="player_question"></h3>
+		<h3 id="player_answer"></h3>
+		<div id="output" class="col-lg-6"> </div>
+		<br>
+		<br>
+
+	<h3>The multiplier</h3>
+	<label>Enter the multiplier:-</label>
+	<input type="text" id="multiplier_name_input" class="form-control" placeholder="Multiplier">
+	<br>
+	
+	<br>
+	
+		<h3>The multiplicand</h3>
+		<label>Enter the multiplicand</label>
+		<input type="text" id="mulyiplicand_name_input" class="form-control" placeholder="Multiplicand">
+		<br>
+		
+<br>
+<button style="width:30%" class="btn btn-primary" onclick="addNumber()">Send</button>
+</center>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
